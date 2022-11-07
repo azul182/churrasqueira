@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-primaria: #e6c892;
+    --cor-secundaria: #000000;
+}
+
+body{
+    background: url("imgs/background-churras.jpg") ;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-primaria);
+    background: var(--cor-secundaria);
+    padding: 12px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grelha-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.grelha-linha{
+    display: inline-flex;
+    flex-direction: row;
+    flex-basis: 30%;
+}
+
+.grelha-item {
+    margin: 12px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: url("imgs/grelha.jpg");
+    width: 30%;
+    aspect-ratio: 1.2/1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grelha-item img{
+    width: 100%;
+    -webkit-user-drag: none;
+}
+    
