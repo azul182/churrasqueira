@@ -43,13 +43,16 @@ main{
     border-radius: 16px;
     overflow: hidden;
     background: url("imgs/grelha.jpg");
-    width: 30%;
+    width: 33%;
     aspect-ratio: 1.2/1;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .grelha-item img{
-    width: 100%;
+    width: 80%;
     -webkit-user-drag: none;
 }
     
